@@ -1,5 +1,12 @@
 package com.company.models;
 
-public class Doctor {
-    
+import java.util.ArrayList;
+import java.util.SortedSet;
+
+public class Doctor extends MedicalStaff {
+    private Department D;
+    private ArrayList<Consult> consultations;
+    private SortedSet<Nurse>  nurses;
+
+
 }

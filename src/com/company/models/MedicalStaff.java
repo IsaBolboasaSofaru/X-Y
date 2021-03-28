@@ -1,10 +1,10 @@
 package com.company.models;
 
-public class MedicalStaff {
-    private int Id;
-    private String firstName;
-    private String lastName;
-    private String gender;
-    private String address;
+public abstract class MedicalStaff {
+    protected int Id;
+    protected String firstName;
+    protected String lastName;
+    protected String gender;
+    protected String address;
 
 }
