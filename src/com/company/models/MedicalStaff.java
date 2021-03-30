@@ -2,9 +2,7 @@ package com.company.models;
 
 public class MedicalStaff {
     static Integer staffMembersCounter = 0;
-    // te (x^2 + y^2 + 1)^3 - x^2y^3=0
-    // noapte buna:*
-    //mereu
+  
     protected Integer staffId;
     protected String typeOfJob;
     protected Department department;
