@@ -9,6 +9,7 @@ public class Patient {
         this.age = age;
     }
 
+
     public String getName() {
         return name;
     }
